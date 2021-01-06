@@ -12,12 +12,6 @@
 %      Bebida1   Bebida2   Bebida3   Bebida4
 %      --------------------------------------
 %      --------------------------------------
-%      Amigo1    Amigo2    Amigo3    Amigo4
-
-que_bebieron(Barra):-
-	=(Barra, [[_, _, _], [_, _, _],[_, _, _],[_, _, _]]),
-
-	puesto([PosAngel, angel, _], Barra),
 	puesto([PosTequila, _, tequila], Barra),
 	%=:=(PosAng, +(PosTeq, 1)),
 	succ(PosTequila, PosAngel),
@@ -50,5 +44,5 @@ puesto([4, A, B], [[_, _, _], [_, _, _],[_, _, _],[4, A, B]]).
 
 
 
-
+"PRUEBA COMMIT -AM"
 
